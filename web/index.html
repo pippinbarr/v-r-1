@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>v r 1</title>
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+  <script src="TemplateData/UnityProgress.js"></script>
+</head>
+<body class="template">
+  <div class="template-wrap clear">
+
+    <div id="game" height="600px" width="960px">
+      <!-- <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas> -->
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+      <div id="loadingBox" >
+        <p id="loadingInfo">Loading...</p>
+        <!-- <div id="bgBar"></div> -->
+        <div id="progressBar"></div>
+      </div>
+    </div>
+
+    <!-- <div class="logo"></div> -->
+
+    <!-- <div class="title">v r 1</div> -->
+  </div>
+  <!-- <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p> -->
+  <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/v r 1.data",
+    codeUrl: "Release/v r 1.js",
+    memUrl: "Release/v r 1.mem",
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+
+<script src="//pippinbarr.com/js/tracking.js"></script>
+
+</body>
+</html>

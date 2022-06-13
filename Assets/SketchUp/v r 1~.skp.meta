@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 5708b7a4762fa49d3a3403fe4b36fc03
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000240000002500000026000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 4de8dcde55ac0145d0211d97b9203f87
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 8.471014, y: 6.4087787, z: -17.606842}
+      lookAt: {x: 1.5049132, y: -22.927921, z: 80.43439}
+      up: {x: -0.02027053, y: 0.9582274, z: 0.2852884}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bed
+    100002: Blanket
+    100004: Door
+    100006: Floor
+    100008: Full room
+    100010: Handle
+    100012: Handle near wall
+    100014: Hinge target
+    100016: Light
+    100018: Long wall, door
+    100020: Long wall, no door
+    100022: Mattress
+    100024: Pillow
+    100026: Radiator
+    100028: Roof
+    100030: Roof and Light
+    100032: Room
+    100034: Short wall, no window
+    100036: Short wall, window
+    100038: Trunk
+    100040: Tube
+    100042: //RootNode
+    400000: Bed
+    400002: Blanket
+    400004: Door
+    400006: Floor
+    400008: Full room
+    400010: Handle
+    400012: Handle near wall
+    400014: Hinge target
+    400016: Light
+    400018: Long wall, door
+    400020: Long wall, no door
+    400022: Mattress
+    400024: Pillow
+    400026: Radiator
+    400028: Roof
+    400030: Roof and Light
+    400032: Room
+    400034: Short wall, no window
+    400036: Short wall, window
+    400038: Trunk
+    400040: Tube
+    400042: //RootNode
+    2300000: Blanket
+    2300002: Door
+    2300004: Floor
+    2300006: Handle
+    2300008: Handle near wall
+    2300010: Hinge target
+    2300012: Light
+    2300014: Long wall, door
+    2300016: Long wall, no door
+    2300018: Mattress
+    2300020: Pillow
+    2300022: Radiator
+    2300024: Roof
+    2300026: Short wall, no window
+    2300028: Short wall, window
+    2300030: Trunk
+    2300032: Tube
+    3300000: Blanket
+    3300002: Door
+    3300004: Floor
+    3300006: Handle
+    3300008: Handle near wall
+    3300010: Hinge target
+    3300012: Light
+    3300014: Long wall, door
+    3300016: Long wall, no door
+    3300018: Mattress
+    3300020: Pillow
+    3300022: Radiator
+    3300024: Roof
+    3300026: Short wall, no window
+    3300028: Short wall, window
+    3300030: Trunk
+    3300032: Tube
+    4300000: Mesh Floor
+    4300002: Mesh Long wall, no door
+    4300004: Mesh Short wall, window
+    4300006: Mesh Long wall, door
+    4300008: Mesh Short wall, no window
+    4300010: Mesh Door
+    4300012: Mesh Handle near wall
+    4300014: Mesh Handle
+    4300016: Mesh Tube
+    4300018: Mesh Trunk
+    4300020: Mesh Light
+    4300022: Mesh Roof
+    4300024: Mesh Hinge target
+    4300026: Mesh Blanket
+    4300028: Mesh Pillow
+    4300030: Mesh Mattress
+    4300032: Mesh Radiator
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blanket Material
+    second: {fileID: 2100000, guid: 023ee1c51397648d28977b9f44deedc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door Handle Material
+    second: {fileID: 2100000, guid: 0f5c667f20e42405e9f1459442b6ac09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door Material
+    second: {fileID: 2100000, guid: 83eb73788f54440a1adbcb903a772ea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor Material
+    second: {fileID: 2100000, guid: 4c6fc6c3a2d5540bba4334f598603374, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light Emitting Material
+    second: {fileID: 2100000, guid: fef1245260e7e485a98d9e0e180e9c97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mattress Material
+    second: {fileID: 2100000, guid: e982e8b2de9e44ed39e2a05ca3f9d1ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillow Material
+    second: {fileID: 2100000, guid: 120f0771d10af4614bf1ae872e959232, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radiator Main Material
+    second: {fileID: 2100000, guid: aa26ddbfadcb64fce83a6725b634089f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skirting Material
+    second: {fileID: 2100000, guid: f73b9946bfcfe425bb4eff67a6eb9558, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube Material
+    second: {fileID: 2100000, guid: a47abe4a13a924b1680bee79e1545a41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall Material
+    second: {fileID: 2100000, guid: 77533ea4e7d124cf5ae9f2298f82e6ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 3846f93dc47b444ff81a100a8be91eba, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
