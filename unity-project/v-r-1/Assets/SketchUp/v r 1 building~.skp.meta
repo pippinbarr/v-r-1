@@ -1,0 +1,864 @@
+fileFormatVersion: 2
+guid: 20fa0311476ea4e41a45cf3d0ad67b4f
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f0100005001000051010000
+  assetHash:
+    serializedVersion: 2
+    Hash: d21b32bef0741e3ee2cb6879daeeeb17
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 170.89311, y: 60.652756, z: -85.950714}
+      lookAt: {x: 92.0061, y: 17.418158, z: -36.667236}
+      up: {x: -0.35747397, y: 0.9068284, z: 0.22332652}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bed
+    100002: Blanket
+    100004: Door
+    100006: Floor
+    100008: Full room
+    100010: Group 10
+    100012: Group 100
+    100014: Group 102
+    100016: Group 104
+    100018: Group 106
+    100020: Group 108
+    100022: Group 110
+    100024: Group 117
+    100026: Group 119
+    100028: Group 12
+    100030: Group 121
+    100032: Group 123
+    100034: Group 125
+    100036: Group 127
+    100038: Group 129
+    100040: Group 131
+    100042: Group 133
+    100044: Group 135
+    100046: Group 137
+    100048: Group 139
+    100050: Group 14
+    100052: Group 141
+    100054: Group 143
+    100056: Group 145
+    100058: Group 147
+    100060: Group 151
+    100062: Group 155
+    100064: Group 157
+    100066: Group 159
+    100068: Group 16
+    100070: Group 161
+    100072: Group 163
+    100074: Group 165
+    100076: Group 167
+    100078: Group 169
+    100080: Group 171
+    100082: Group 173
+    100084: Group 175
+    100086: Group 177
+    100088: Group 179
+    100090: Group 18
+    100092: Group 181
+    100094: Group 183
+    100096: Group 185
+    100098: Group 192
+    100100: Group 194
+    100102: Group 196
+    100104: Group 198
+    100106: Group 2
+    100108: Group 20
+    100110: Group 200
+    100112: Group 202
+    100114: Group 204
+    100116: Group 206
+    100118: Group 208
+    100120: Group 210
+    100122: Group 212
+    100124: Group 214
+    100126: Group 216
+    100128: Group 218
+    100130: Group 22
+    100132: Group 220
+    100134: Group 222
+    100136: Group 229
+    100138: Group 231
+    100140: Group 233
+    100142: Group 235
+    100144: Group 237
+    100146: Group 239
+    100148: Group 24
+    100150: Group 241
+    100152: Group 243
+    100154: Group 245
+    100156: Group 247
+    100158: Group 249
+    100160: Group 251
+    100162: Group 253
+    100164: Group 255
+    100166: Group 257
+    100168: Group 259
+    100170: Group 26
+    100172: Group 266
+    100174: Group 268
+    100176: Group 270
+    100178: Group 272
+    100180: Group 274
+    100182: Group 276
+    100184: Group 278
+    100186: Group 28
+    100188: Group 280
+    100190: Group 282
+    100192: Group 284
+    100194: Group 286
+    100196: Group 288
+    100198: Group 290
+    100200: Group 292
+    100202: Group 294
+    100204: Group 296
+    100206: Group 30
+    100208: Group 32
+    100210: Group 34
+    100212: Group 36
+    100214: Group 43
+    100216: Group 45
+    100218: Group 47
+    100220: Group 49
+    100222: Group 51
+    100224: Group 53
+    100226: Group 55
+    100228: Group 57
+    100230: Group 59
+    100232: Group 6
+    100234: Group 61
+    100236: Group 63
+    100238: Group 65
+    100240: Group 67
+    100242: Group 69
+    100244: Group 71
+    100246: Group 73
+    100248: Group 8
+    100250: Group 80
+    100252: Group 82
+    100254: Group 84
+    100256: Group 86
+    100258: Group 88
+    100260: Group 90
+    100262: Group 92
+    100264: Group 94
+    100266: Group 96
+    100268: Group 98
+    100270: Handle
+    100272: Handle near wall
+    100274: Hinge target
+    100276: Light
+    100278: Light 1
+    100280: Light 2
+    100282: Light 3
+    100284: Light 4
+    100286: Light 5
+    100288: Light 6
+    100290: Light 7
+    100292: Light 8
+    100294: Long wall, door
+    100296: Long wall, no door
+    100298: Mattress
+    100300: Pillow
+    100302: Radiator
+    100304: Roof
+    100306: Roof and Light
+    100308: Room
+    100310: Short wall, no window
+    100312: Short wall, window
+    100314: Stairs
+    100316: Stairs 1
+    100318: Stairs 2
+    100320: Stairs 3
+    100322: Stairs 4
+    100324: Stairs 5
+    100326: Stairs 6
+    100328: Stairs 7
+    100330: Stairway
+    100332: Stairway 1
+    100334: Stairway 2
+    100336: Stairway 3
+    100338: Stairway 4
+    100340: Stairway 5
+    100342: Stairway 6
+    100344: Stairway 7
+    100346: Trunk
+    100348: Tube
+    100350: //RootNode
+    400000: Bed
+    400002: Blanket
+    400004: Door
+    400006: Floor
+    400008: Full room
+    400010: Group 10
+    400012: Group 100
+    400014: Group 102
+    400016: Group 104
+    400018: Group 106
+    400020: Group 108
+    400022: Group 110
+    400024: Group 117
+    400026: Group 119
+    400028: Group 12
+    400030: Group 121
+    400032: Group 123
+    400034: Group 125
+    400036: Group 127
+    400038: Group 129
+    400040: Group 131
+    400042: Group 133
+    400044: Group 135
+    400046: Group 137
+    400048: Group 139
+    400050: Group 14
+    400052: Group 141
+    400054: Group 143
+    400056: Group 145
+    400058: Group 147
+    400060: Group 151
+    400062: Group 155
+    400064: Group 157
+    400066: Group 159
+    400068: Group 16
+    400070: Group 161
+    400072: Group 163
+    400074: Group 165
+    400076: Group 167
+    400078: Group 169
+    400080: Group 171
+    400082: Group 173
+    400084: Group 175
+    400086: Group 177
+    400088: Group 179
+    400090: Group 18
+    400092: Group 181
+    400094: Group 183
+    400096: Group 185
+    400098: Group 192
+    400100: Group 194
+    400102: Group 196
+    400104: Group 198
+    400106: Group 2
+    400108: Group 20
+    400110: Group 200
+    400112: Group 202
+    400114: Group 204
+    400116: Group 206
+    400118: Group 208
+    400120: Group 210
+    400122: Group 212
+    400124: Group 214
+    400126: Group 216
+    400128: Group 218
+    400130: Group 22
+    400132: Group 220
+    400134: Group 222
+    400136: Group 229
+    400138: Group 231
+    400140: Group 233
+    400142: Group 235
+    400144: Group 237
+    400146: Group 239
+    400148: Group 24
+    400150: Group 241
+    400152: Group 243
+    400154: Group 245
+    400156: Group 247
+    400158: Group 249
+    400160: Group 251
+    400162: Group 253
+    400164: Group 255
+    400166: Group 257
+    400168: Group 259
+    400170: Group 26
+    400172: Group 266
+    400174: Group 268
+    400176: Group 270
+    400178: Group 272
+    400180: Group 274
+    400182: Group 276
+    400184: Group 278
+    400186: Group 28
+    400188: Group 280
+    400190: Group 282
+    400192: Group 284
+    400194: Group 286
+    400196: Group 288
+    400198: Group 290
+    400200: Group 292
+    400202: Group 294
+    400204: Group 296
+    400206: Group 30
+    400208: Group 32
+    400210: Group 34
+    400212: Group 36
+    400214: Group 43
+    400216: Group 45
+    400218: Group 47
+    400220: Group 49
+    400222: Group 51
+    400224: Group 53
+    400226: Group 55
+    400228: Group 57
+    400230: Group 59
+    400232: Group 6
+    400234: Group 61
+    400236: Group 63
+    400238: Group 65
+    400240: Group 67
+    400242: Group 69
+    400244: Group 71
+    400246: Group 73
+    400248: Group 8
+    400250: Group 80
+    400252: Group 82
+    400254: Group 84
+    400256: Group 86
+    400258: Group 88
+    400260: Group 90
+    400262: Group 92
+    400264: Group 94
+    400266: Group 96
+    400268: Group 98
+    400270: Handle
+    400272: Handle near wall
+    400274: Hinge target
+    400276: Light
+    400278: Light 1
+    400280: Light 2
+    400282: Light 3
+    400284: Light 4
+    400286: Light 5
+    400288: Light 6
+    400290: Light 7
+    400292: Light 8
+    400294: Long wall, door
+    400296: Long wall, no door
+    400298: Mattress
+    400300: Pillow
+    400302: Radiator
+    400304: Roof
+    400306: Roof and Light
+    400308: Room
+    400310: Short wall, no window
+    400312: Short wall, window
+    400314: Stairs
+    400316: Stairs 1
+    400318: Stairs 2
+    400320: Stairs 3
+    400322: Stairs 4
+    400324: Stairs 5
+    400326: Stairs 6
+    400328: Stairs 7
+    400330: Stairway
+    400332: Stairway 1
+    400334: Stairway 2
+    400336: Stairway 3
+    400338: Stairway 4
+    400340: Stairway 5
+    400342: Stairway 6
+    400344: Stairway 7
+    400346: Trunk
+    400348: Tube
+    400350: //RootNode
+    2300000: Blanket
+    2300002: Door
+    2300004: Floor
+    2300006: Group 10
+    2300008: Group 100
+    2300010: Group 102
+    2300012: Group 104
+    2300014: Group 106
+    2300016: Group 108
+    2300018: Group 110
+    2300020: Group 117
+    2300022: Group 119
+    2300024: Group 12
+    2300026: Group 121
+    2300028: Group 123
+    2300030: Group 125
+    2300032: Group 127
+    2300034: Group 129
+    2300036: Group 131
+    2300038: Group 133
+    2300040: Group 135
+    2300042: Group 137
+    2300044: Group 139
+    2300046: Group 14
+    2300048: Group 141
+    2300050: Group 143
+    2300052: Group 145
+    2300054: Group 147
+    2300056: Group 155
+    2300058: Group 157
+    2300060: Group 159
+    2300062: Group 16
+    2300064: Group 161
+    2300066: Group 163
+    2300068: Group 165
+    2300070: Group 167
+    2300072: Group 169
+    2300074: Group 171
+    2300076: Group 173
+    2300078: Group 175
+    2300080: Group 177
+    2300082: Group 179
+    2300084: Group 18
+    2300086: Group 181
+    2300088: Group 183
+    2300090: Group 185
+    2300092: Group 192
+    2300094: Group 194
+    2300096: Group 196
+    2300098: Group 198
+    2300100: Group 20
+    2300102: Group 200
+    2300104: Group 202
+    2300106: Group 204
+    2300108: Group 206
+    2300110: Group 208
+    2300112: Group 210
+    2300114: Group 212
+    2300116: Group 214
+    2300118: Group 216
+    2300120: Group 218
+    2300122: Group 22
+    2300124: Group 220
+    2300126: Group 222
+    2300128: Group 229
+    2300130: Group 231
+    2300132: Group 233
+    2300134: Group 235
+    2300136: Group 237
+    2300138: Group 239
+    2300140: Group 24
+    2300142: Group 241
+    2300144: Group 243
+    2300146: Group 245
+    2300148: Group 247
+    2300150: Group 249
+    2300152: Group 251
+    2300154: Group 253
+    2300156: Group 255
+    2300158: Group 257
+    2300160: Group 259
+    2300162: Group 26
+    2300164: Group 266
+    2300166: Group 268
+    2300168: Group 270
+    2300170: Group 272
+    2300172: Group 274
+    2300174: Group 276
+    2300176: Group 278
+    2300178: Group 28
+    2300180: Group 280
+    2300182: Group 282
+    2300184: Group 284
+    2300186: Group 286
+    2300188: Group 288
+    2300190: Group 290
+    2300192: Group 292
+    2300194: Group 294
+    2300196: Group 296
+    2300198: Group 30
+    2300200: Group 32
+    2300202: Group 34
+    2300204: Group 36
+    2300206: Group 43
+    2300208: Group 45
+    2300210: Group 47
+    2300212: Group 49
+    2300214: Group 51
+    2300216: Group 53
+    2300218: Group 55
+    2300220: Group 57
+    2300222: Group 59
+    2300224: Group 6
+    2300226: Group 61
+    2300228: Group 63
+    2300230: Group 65
+    2300232: Group 67
+    2300234: Group 69
+    2300236: Group 71
+    2300238: Group 73
+    2300240: Group 8
+    2300242: Group 80
+    2300244: Group 82
+    2300246: Group 84
+    2300248: Group 86
+    2300250: Group 88
+    2300252: Group 90
+    2300254: Group 92
+    2300256: Group 94
+    2300258: Group 96
+    2300260: Group 98
+    2300262: Handle
+    2300264: Handle near wall
+    2300266: Hinge target
+    2300268: Light
+    2300270: Light 1
+    2300272: Light 2
+    2300274: Light 3
+    2300276: Light 4
+    2300278: Light 5
+    2300280: Light 6
+    2300282: Light 7
+    2300284: Light 8
+    2300286: Long wall, door
+    2300288: Long wall, no door
+    2300290: Mattress
+    2300292: Pillow
+    2300294: Radiator
+    2300296: Roof
+    2300298: Short wall, no window
+    2300300: Short wall, window
+    2300302: Stairway
+    2300304: Stairway 1
+    2300306: Stairway 2
+    2300308: Stairway 3
+    2300310: Stairway 4
+    2300312: Stairway 5
+    2300314: Stairway 6
+    2300316: Stairway 7
+    2300318: Trunk
+    2300320: Tube
+    2300322: //RootNode
+    3300000: Blanket
+    3300002: Door
+    3300004: Floor
+    3300006: Group 10
+    3300008: Group 100
+    3300010: Group 102
+    3300012: Group 104
+    3300014: Group 106
+    3300016: Group 108
+    3300018: Group 110
+    3300020: Group 117
+    3300022: Group 119
+    3300024: Group 12
+    3300026: Group 121
+    3300028: Group 123
+    3300030: Group 125
+    3300032: Group 127
+    3300034: Group 129
+    3300036: Group 131
+    3300038: Group 133
+    3300040: Group 135
+    3300042: Group 137
+    3300044: Group 139
+    3300046: Group 14
+    3300048: Group 141
+    3300050: Group 143
+    3300052: Group 145
+    3300054: Group 147
+    3300056: Group 155
+    3300058: Group 157
+    3300060: Group 159
+    3300062: Group 16
+    3300064: Group 161
+    3300066: Group 163
+    3300068: Group 165
+    3300070: Group 167
+    3300072: Group 169
+    3300074: Group 171
+    3300076: Group 173
+    3300078: Group 175
+    3300080: Group 177
+    3300082: Group 179
+    3300084: Group 18
+    3300086: Group 181
+    3300088: Group 183
+    3300090: Group 185
+    3300092: Group 192
+    3300094: Group 194
+    3300096: Group 196
+    3300098: Group 198
+    3300100: Group 20
+    3300102: Group 200
+    3300104: Group 202
+    3300106: Group 204
+    3300108: Group 206
+    3300110: Group 208
+    3300112: Group 210
+    3300114: Group 212
+    3300116: Group 214
+    3300118: Group 216
+    3300120: Group 218
+    3300122: Group 22
+    3300124: Group 220
+    3300126: Group 222
+    3300128: Group 229
+    3300130: Group 231
+    3300132: Group 233
+    3300134: Group 235
+    3300136: Group 237
+    3300138: Group 239
+    3300140: Group 24
+    3300142: Group 241
+    3300144: Group 243
+    3300146: Group 245
+    3300148: Group 247
+    3300150: Group 249
+    3300152: Group 251
+    3300154: Group 253
+    3300156: Group 255
+    3300158: Group 257
+    3300160: Group 259
+    3300162: Group 26
+    3300164: Group 266
+    3300166: Group 268
+    3300168: Group 270
+    3300170: Group 272
+    3300172: Group 274
+    3300174: Group 276
+    3300176: Group 278
+    3300178: Group 28
+    3300180: Group 280
+    3300182: Group 282
+    3300184: Group 284
+    3300186: Group 286
+    3300188: Group 288
+    3300190: Group 290
+    3300192: Group 292
+    3300194: Group 294
+    3300196: Group 296
+    3300198: Group 30
+    3300200: Group 32
+    3300202: Group 34
+    3300204: Group 36
+    3300206: Group 43
+    3300208: Group 45
+    3300210: Group 47
+    3300212: Group 49
+    3300214: Group 51
+    3300216: Group 53
+    3300218: Group 55
+    3300220: Group 57
+    3300222: Group 59
+    3300224: Group 6
+    3300226: Group 61
+    3300228: Group 63
+    3300230: Group 65
+    3300232: Group 67
+    3300234: Group 69
+    3300236: Group 71
+    3300238: Group 73
+    3300240: Group 8
+    3300242: Group 80
+    3300244: Group 82
+    3300246: Group 84
+    3300248: Group 86
+    3300250: Group 88
+    3300252: Group 90
+    3300254: Group 92
+    3300256: Group 94
+    3300258: Group 96
+    3300260: Group 98
+    3300262: Handle
+    3300264: Handle near wall
+    3300266: Hinge target
+    3300268: Light
+    3300270: Light 1
+    3300272: Light 2
+    3300274: Light 3
+    3300276: Light 4
+    3300278: Light 5
+    3300280: Light 6
+    3300282: Light 7
+    3300284: Light 8
+    3300286: Long wall, door
+    3300288: Long wall, no door
+    3300290: Mattress
+    3300292: Pillow
+    3300294: Radiator
+    3300296: Roof
+    3300298: Short wall, no window
+    3300300: Short wall, window
+    3300302: Stairway
+    3300304: Stairway 1
+    3300306: Stairway 2
+    3300308: Stairway 3
+    3300310: Stairway 4
+    3300312: Stairway 5
+    3300314: Stairway 6
+    3300316: Stairway 7
+    3300318: Trunk
+    3300320: Tube
+    3300322: //RootNode
+    4300000: Mesh v r 1 building~
+    4300002: Mesh Stairway
+    4300004: Mesh Group 6
+    4300006: Mesh Group 36
+    4300008: Mesh Light
+    4300010: Mesh Floor
+    4300012: Mesh Long wall, no door
+    4300014: Mesh Short wall, window
+    4300016: Mesh Long wall, door
+    4300018: Mesh Short wall, no window
+    4300020: Mesh Radiator
+    4300022: Mesh Door
+    4300024: Mesh Handle near wall
+    4300026: Mesh Handle
+    4300028: Mesh Tube
+    4300030: Mesh Trunk
+    4300032: Mesh Pillow
+    4300034: Mesh Mattress
+    4300036: Mesh Blanket
+    4300038: Mesh Light
+    4300040: Mesh Roof
+    4300042: Mesh Hinge target
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blanket Material
+    second: {fileID: 2100000, guid: fb6e40e9b847b43a4bd5a6ea05b55a1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door Handle Material
+    second: {fileID: 2100000, guid: 1255bc66560f649ab9da155daa850322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door Material
+    second: {fileID: 2100000, guid: 228ea379c1d9146f88495979ea410285, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor Material
+    second: {fileID: 2100000, guid: ea9753cceb9cd43e19fc3036d9334ae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light Emitting Material
+    second: {fileID: 2100000, guid: fd4b4a909dcbc4ee49c0855f086fbe43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mattress Material
+    second: {fileID: 2100000, guid: ae981a867b04b425b9c4b34a176c39ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillow Material
+    second: {fileID: 2100000, guid: 7edd92e9492114445857f73f81517428, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Point Light Position
+    second: {fileID: 2100000, guid: 34e3295dc4cb24d80ab1cb7f687aaa62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radiator Main Material
+    second: {fileID: 2100000, guid: e120c404d6011445da122af07a448c55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skirting Material
+    second: {fileID: 2100000, guid: 1dfcebfe283154baab914e7882666edf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube Material
+    second: {fileID: 2100000, guid: 223d17a4e54064ca1a8113d026d74bcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall Material
+    second: {fileID: 2100000, guid: cb66eb06febc949d8b86dcc79438e437, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

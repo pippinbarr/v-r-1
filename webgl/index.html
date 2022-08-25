@@ -1,54 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>v r 1</title>
-  <link rel="stylesheet" href="TemplateData/style.css">
-  <link rel="shortcut icon" href="TemplateData/favicon.ico" />
-  <script src="TemplateData/UnityProgress.js"></script>
-</head>
-<body class="template">
-  <div class="template-wrap clear">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | v r 1</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <script src="Build/webgl.loader.js"></script>
+    <script>
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+      }
 
-    <div id="game" height="600px" width="960px">
-      <!-- <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas> -->
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
-      <div id="loadingBox" >
-        <p id="loadingInfo">Loading...</p>
-        <!-- <div id="bgBar"></div> -->
-        <div id="progressBar"></div>
-      </div>
-    </div>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/webgl.data",
+        frameworkUrl: "Build/webgl.framework.js",
+        codeUrl: "Build/webgl.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Pippin Barr",
+        productName: "v r 1",
+        productVersion: "1.0",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
 
-    <!-- <div class="logo"></div> -->
+    <!-- FOR PIPPINBARR.COM -->
 
-    <!-- <div class="title">v r 1</div> -->
-  </div>
-  <!-- <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p> -->
-  <script type='text/javascript'>
-  var Module = {
-    TOTAL_MEMORY: 268435456,
-    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
-    compatibilitycheck: null,
-    dataUrl: "Release/v r 1.data",
-    codeUrl: "Release/v r 1.js",
-    memUrl: "Release/v r 1.mem",
-  };
-</script>
-<script src="Release/UnityLoader.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GECKZQ62DH"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<!-- FOR PIPPINBARR.COM -->
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GECKZQ62DH"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-GECKZQ62DH');
-</script>
-
-</body>
+    gtag('config', 'G-GECKZQ62DH');
+    </script>
+  </body>
 </html>
